@@ -9,7 +9,9 @@ const props = defineProps ({
 })
 
 function formatarPreco(preco) {
-  return 'R$ ' + preco.toFixed(2).replace('.', ',')
+  return 'R$ ' + preco.toFixed(2).replace('.', ',') 
+  
+
 }
 
 </script>
